@@ -83,6 +83,57 @@ public class ControlFlow{
             System.out.println("z is greater");
         }
 
+
+        // Loops!
+        // For loop!
+        for(int i = 0; i < 100; i++){
+            System.out.println(i);
+        }
+
+        // While loop!
+        int i = 0;
+        while(i < 100){
+            System.out.println(i);
+            i++;
+        }
+
+        // Do while loop!
+        int j = 0;
+        do{
+            System.out.println(j);
+            j++;
+        }while(j < 100);
+        
+        // BREAK AND CONTINUE!
+        for(int l = 0; l < 100; l++){
+            if(l == 10){
+                break;
+            }
+            System.out.println(l);
+        }
+
+        for(int k = 0; k < 100; k++){
+            if(k == 10){
+                continue;
+            }
+            System.out.println(k);
+        }
+
+        // for-each loop!
+        int[] numbers = {1, 2, 3, 4, 5};    
+        for(int number : numbers){
+            System.out.println(number);
+        }
+
+        // enhanced for-each loop!
+        String[] names = {"John", "Doe", "Jane", "Doe"};
+        for(String name : names){
+            System.out.println(name);
+        }
+
+        
+        
+
         
     }
 }   
