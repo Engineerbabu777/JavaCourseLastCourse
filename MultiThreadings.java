@@ -42,13 +42,3 @@ class Test {
     }
 }
 
-
-// PARALLEL PRININTING!
-
-class Printer extends Thread {
-    @Override 
-    public void run() {
-        System.out.println(msg);
-    }
-
-}
